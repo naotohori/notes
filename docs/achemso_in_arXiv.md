@@ -1,12 +1,16 @@
 achemso を使って、latex原稿をarXivに投稿する方法。
+-----
 
+1. 下記の行がtexにある状態でコンパイルする。(pdflatex, pdflatex, bibtex, pdflatex, pdflatex)
+````
 \setkeys{acs}{articletitle=true, doi=true}
-の行ありでコンパイル。
+````
 
-pdflatex, pdflatex, bibtex, pdflatex, pdflatex
-ここでbblができている。
+2. これでbblファイルができているはず。
 
-さっきの行をコメントアウトする。
+3. さっきの行をコメントアウトしておく。
+````
 %\setkeys{acs}{articletitle=true, doi=true}
+````
 
-bib とbbl, 必要なFigureのpdfを、tar.gzにまとめてアップロードする。
+4. bib とbbl, 必要なFigureのpdfを、tar.gzにまとめてアップロードする。
