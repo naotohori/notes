@@ -7,7 +7,8 @@ URL of the proxy server is `ezproxy.lib.utexas.edu`.
 ### How to use proxy
 The simplest way to use the proxy is adding proxy URL to the journal website URL you want to access.  
   
-For instance, in order to access to Nature (www.nature.com), you can use this URL: `www.nature.com.ezproxy.lib.utexas.edu`.  
+For instance, in order to see Nature (www.nature.com), you can use this URL: `www.nature.com.ezproxy.lib.utexas.edu`.  
+For the first time in a session, you will be asked your EID and password.
   
 It can work for any pages of individual articles as well.  
 Just put `.ezproxy.lib.utexas.edu` after original server name.
