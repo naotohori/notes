@@ -20,7 +20,7 @@ Just put `.ezproxy.lib.utexas.edu` after original server name.
 ### Bookmark button to apply proxy
 I even do not want to remember and type the sequence.  
 Then I set up a bookmark on my browser like "Reload Button" which we used to use at UMD,
-so that I just click the button at any article page (see http://lib.guides.umd.edu/reload-button for more info).  
+so that I just click the button at any article page (see [UMD library website](http://lib.guides.umd.edu/reload-button) for more info).  
   
 Following is the java script you can set to a bookmark.  
 This script automatically inserts the proxy server url after the host name.  
