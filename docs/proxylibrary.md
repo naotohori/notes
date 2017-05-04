@@ -5,7 +5,7 @@ UT library provides a proxy server so that we can directly see e-journals.
 URL of the proxy server is `ezproxy.lib.utexas.edu`.  
 
 ### How to use proxy
-The simplest way to use the proxy is adding proxy URS to the journal URL you want to access.  
+The simplest way to use the proxy is adding proxy URL to the journal website URL you want to access.  
   
 For instance, in order to access to Nature (www.nature.com), you can use this URL: `www.nature.com.ezproxy.lib.utexas.edu`.  
   
@@ -30,7 +30,6 @@ This script automatically inserts the proxy server url after the host name.
  window.location=u.substring(0,n+1)+'.ezproxy.lib.utexas.edu'+u.substring(n+1);})()
 ````
   
-Unfortunately UT's server seems not as smart as UMD's.  That is, if
+Unfortunately proxy server in UT seems not as smart as one in UMD.  That is, if
 your query is not on the list of proxy server, it will give you just
 an Error page, instead of passing back to the original page.
-
